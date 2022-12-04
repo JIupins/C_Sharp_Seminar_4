@@ -11,10 +11,9 @@ int EnterNumber(string word)
 
 void RaisingNumberToPower(int bas, int deg)
 {
-    int count = deg;
     int result = 1;
 
-    for ( ; count > 0; count--)
+    for (int count = deg; count > 0; count--)
     {
         result *= bas;
     }
